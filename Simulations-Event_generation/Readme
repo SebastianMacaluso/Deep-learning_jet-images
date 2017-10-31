@@ -1,0 +1,3 @@
+Code to generate simulations of proton-proton collisions at the Large Hadron Collider
+1) Run Madgraph for Monte Carlo event generation at the matrix element level
+2) Run Pythia for showering, hadronization and jet clustering (with the built in Slowjet package)
