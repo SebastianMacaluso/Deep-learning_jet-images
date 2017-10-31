@@ -8,4 +8,6 @@ Description:
 
 1) Simulations-Event_generation: Code to generate simulations of proton-proton collisions at the Large Hadron Collider that will be used to create the input images for the convolutional neural network.
 
+2) image_preprocess.py loads the simulated jet and jet constituents, creates and preprocesses the images for the convnet. 
+
 3) convnet_keras.py loads the (image arrays,true_values) tuples, creates the train, cross-validation and test sets and runs a convolutional neural network to classify signal vs background images. We then get the statistics and analyze the output. We plot histograms with the probability of signal and background to be tagged as signal, ROC curves and get the output of the intermediate layers and weights.
